@@ -14,7 +14,7 @@ function Cart() {
 					<div class="col-lg-2 text-center text-lg-left">
 						
 						<a href="./index.html" class="site-logo">
-							<img src="img/logo.png" alt=""/>
+							<img src="img/icons/logo.png" alt=""/>
 						</a>
 					</div>
 					<div class="col-xl-6 col-lg-5">
@@ -27,14 +27,14 @@ function Cart() {
 						<div class="user-panel">
 							<div class="up-item">
 								<i class="flaticon-profile"></i>
-								<a href="#">Sign</a> In or <a href="#">Create Account</a>
+								<a href="#">Войти</a> в или <a href="#">Зарегистрироваться</a>
 							</div>
 							<div class="up-item">
 								<div class="shopping-card">
 									<i class="flaticon-bag"></i>
 									<span>0</span>
 								</div>
-								<a href="#">Shopping Cart</a>
+								<a href="#">Корзина</a>
 							</div>
 						</div>
 					</div>
@@ -46,30 +46,12 @@ function Cart() {
 				
 				<ul class="main-menu">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Men</a></li>
-					<li><a href="#">Jewelry
-						<span class="new">New</span>
-					</a></li>
-					<li><a href="#">Shoes</a>
-						<ul class="sub-menu">
-							<li><a href="#">Sneakers</a></li>
-							<li><a href="#">Sandals</a></li>
-							<li><a href="#">Formal Shoes</a></li>
-							<li><a href="#">Boots</a></li>
-							<li><a href="#">Flip Flops</a></li>
-						</ul>
-					</li>
 					<li><a href="#">Pages</a>
 						<ul class="sub-menu">
-							<li><a href="./product.html">Product Page</a></li>
-							<li><a href="./category.html">Category Page</a></li>
-							<li><a href="./cart.html">Cart Page</a></li>
-							<li><a href="./checkout.html">Checkout Page</a></li>
-							<li><a href="./contact.html">Contact Page</a></li>
+							<li><a href="./product.html">Product Page</a></li>							
+							<li><a href="./cart.html">Cart Page</a></li>							
 						</ul>
-					</li>
-					<li><a href="#">Blog</a></li>
+					</li>					
 				</ul>
 			</div>
 		</nav>
@@ -77,7 +59,7 @@ function Cart() {
 		
 	<div class="page-top-info">
 		<div class="container">
-			<h4>Your cart</h4>
+			<h4>Корзина</h4>
 			<div class="site-pagination">
 				<a href="">Home</a> /
 				<a href="">Your cart</a>
@@ -90,15 +72,14 @@ function Cart() {
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="cart-table">
-						<h3>Your Cart</h3>
+						<h3>Корзина</h3>
 						<div class="cart-table-warp">
 							<table>
 							<thead>
 								<tr>
-									<th class="product-th">Product</th>
-									<th class="quy-th">Quantity</th>
-									<th class="size-th">SizeSize</th>
-									<th class="total-th">Price</th>
+									<th class="product-th">Товар</th>
+									<th class="quy-th">Количество</th>									
+									<th class="total-th">Цена</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -116,8 +97,7 @@ function Cart() {
 												<input type="text" value="1"/>
 											</div>
                     					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
+									</td>									
 									<td class="total-col"><h4>$45.90</h4></td>
 								</tr>
 								<tr>
@@ -134,8 +114,7 @@ function Cart() {
 												<input type="text" value="1"/>
 											</div>
                     					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
+									</td>																	
 									<td class="total-col"><h4>$45.90</h4></td>
 								</tr>
 								<tr>
@@ -152,25 +131,24 @@ function Cart() {
 												<input type="text" value="1"/>
 											</div>
                     					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
+									</td>									
 									<td class="total-col"><h4>$45.90</h4></td>
 								</tr>
 							</tbody>
 						</table>
 						</div>
 						<div class="total-cost">
-							<h6>Total <span>$99.90</span></h6>
+							<h6>Общая сумма<span>$99.90</span></h6>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 card-right">
 					<form class="promo-code-form">
-						<input type="text" placeholder="Enter promo code"/>
-						<button>Submit</button>
+						<input type="text" placeholder="Введите промокод"/>
+						<button>Отправить</button>
 					</form>
-					<a href="" class="site-btn">Proceed to checkout</a>
-					<a href="" class="site-btn sb-dark">Continue shopping</a>
+					<a href="" class="site-btn">Перейти к оформлению заказа</a>
+					<a href="" class="site-btn sb-dark">Продолжить покупку</a>
 				</div>
 			</div>
 		</div>
@@ -178,7 +156,7 @@ function Cart() {
 	<section class="related-product-section">
 		<div class="container">
 			<div class="section-title text-uppercase">
-				<h2>Continue Shopping</h2>
+				<h2>Еще товары</h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
@@ -248,59 +226,16 @@ function Cart() {
 	<section class="footer-section">
 		<div class="container">
 			<div class="footer-logo text-center">
-				<a href="index.html"><img src="./img/logo-light.png" alt=""/></a>
+				<a href="index.html"><img src="" alt=""/></a>
 			</div>
-			<div class="row">
+			<div class="row row-footer">
 				<div class="col-lg-3 col-sm-6">
 					<div class="footer-widget about-widget">
 						<h2>About</h2>
 						<p>Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis. Nullam frin-gilla faucibus urna, id dapibus erat iaculis ut. Integer ac sem.</p>
 						<img src="img/cards.png" alt=""/>
 					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget about-widget">
-						<h2>Questions</h2>
-						<ul>
-							<li><a href="">About Us</a></li>
-							<li><a href="">Track Orders</a></li>
-							<li><a href="">Returns</a></li>
-							<li><a href="">Jobs</a></li>
-							<li><a href="">Shipping</a></li>
-							<li><a href="">Blog</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Partners</a></li>
-							<li><a href="">Bloggers</a></li>
-							<li><a href="">Support</a></li>
-							<li><a href="">Terms of Use</a></li>
-							<li><a href="">Press</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget about-widget">
-						<h2>Questions</h2>
-						<div class="fw-latest-post-widget">
-							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/blog-thumbs/1.jpg"></div>
-								<div class="lp-content">
-									<h6>what shoes to wear</h6>
-									<span>Oct 21, 2018</span>
-									<a href="#" class="readmore">Read More</a>
-								</div>
-							</div>
-							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/blog-thumbs/2.jpg"></div>
-								<div class="lp-content">
-									<h6>trends this year</h6>
-									<span>Oct 21, 2018</span>
-									<a href="#" class="readmore">Read More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				</div>								
 				<div class="col-lg-3 col-sm-6">
 					<div class="footer-widget contact-widget">
 						<h2>Questions</h2>
@@ -343,16 +278,6 @@ function Cart() {
 			</div>
 		</div>
 	</section>
-	{/* <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.nicescroll.min.js"></script>
-	<script src="js/jquery.zoom.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/main.js"></script> */}
-
-
       </div>
   );
 }

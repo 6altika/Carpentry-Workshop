@@ -355,6 +355,7 @@ ol {
 	border: none;
 	padding: 0 19px;
 	background: #f0f0f0;
+	margin-top: 30px;
 }
 
 .header-search-form button {
@@ -367,6 +368,7 @@ ol {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
+	margin-top:17px ;
 }
 
 .user-panel .up-item {
@@ -1084,6 +1086,11 @@ ol {
 	overflow: hidden;
 }
 
+.row-footer {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
 .fw-latest-post-widget .lp-thumb {
 	width: 64px;
 	height: 64px;
