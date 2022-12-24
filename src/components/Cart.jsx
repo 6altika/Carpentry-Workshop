@@ -19,7 +19,7 @@ function Cart() {
 					</div>
 					<div class="col-xl-6 col-lg-5">
 						<form class="header-search-form">
-							<input type="text" placeholder="Search on divisima ...."/>
+							<input type="text" placeholder="Search on True Craft ...."/>
 							<button><i class="flaticon-search"></i></button>
 						</form>
 					</div>
@@ -31,7 +31,7 @@ function Cart() {
 							</div>
 							<div class="up-item">
 								<div class="shopping-card">
-									<i class="flaticon-bag"></i>
+								<img src="img/icons/tool-box (4).png"/>
 									<span>0</span>
 								</div>
 								<a href="#">Корзина</a>
@@ -45,11 +45,11 @@ function Cart() {
 			<div class="container">
 				
 				<ul class="main-menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Страницы</a>
 						<ul class="sub-menu">
-							<li><a href="./product.html">Product Page</a></li>							
-							<li><a href="./cart.html">Cart Page</a></li>							
+							<li><a href="./product.html">Товары</a></li>							
+							<li><a href="./cart.html">Корзина</a></li>							
 						</ul>
 					</li>					
 				</ul>
@@ -61,8 +61,8 @@ function Cart() {
 		<div class="container">
 			<h4>Корзина</h4>
 			<div class="site-pagination">
-				<a href="">Home</a> /
-				<a href="">Your cart</a>
+				<a href="">Главная</a> /
+				<a href="">Корзина</a>
 			</div>
 		</div>
 	</div>
